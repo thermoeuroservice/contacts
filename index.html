@@ -3,52 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ThermoEuroService - Свяжитесь с нами для получения профессиональных услуг">
     <title>ThermoEuroService - Контакты</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <picture>
-                <img src="logo.png" alt="logo" class="logo-img">
+        <header class="header">
+            <picture class="logo-container">
+                <img src="logo.png" alt="ThermoEuroService Logo" class="logo-img" loading="lazy">
             </picture>
-            <div class="logo">ThermoEuroService</div>
-            <div class="subtitle">Свяжитесь с нами</div>
-        </div>
+            <h1 class="logo">ThermoEuroService</h1>
+            <p class="subtitle">Свяжитесь с нами удобным способом</p>
+        </header>
 
-        <div class="contact-grid">
-            <a href="tel:+998337775055" class="contact-card">
-                <div class="icon">📞</div>
-                <div class="contact-title">Телефоны</div>
+        <main class="contact-grid">
+            <a href="tel:+998337775055" class="contact-card" aria-label="Позвонить по телефону">
+                <div class="icon" aria-hidden="true">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                </div>
+                <h2 class="contact-title">Телефоны</h2>
                 <div class="contact-info">
-                    <span>+998 33 777 50 55</span><br>
+                    <span>+998 33 777 50 55</span>
                     <span>+998 78 777 50 55</span>
                 </div>
             </a>
 
-            <a href="https://t.me/gaz5055" target="_blank" class="contact-card">
-                <div class="icon">💬</div>
-                <div class="contact-title">Telegram</div>
+            <a href="https://t.me/gaz5055" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Написать в Telegram">
+                <div class="icon" aria-hidden="true">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/>
+                    </svg>
+                </div>
+                <h2 class="contact-title">Telegram</h2>
                 <div class="contact-info">
                     <span>@gaz5055</span>
                 </div>
             </a>
 
-            <a href="mailto:thermoeuroservice@gmail.com" class="contact-card">
-                <div class="icon">📧</div>
-                <div class="contact-title">Email</div>
+            <a href="mailto:thermoeuroservice@gmail.com" class="contact-card" aria-label="Отправить email">
+                <div class="icon" aria-hidden="true">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </div>
+                <h2 class="contact-title">Email</h2>
                 <div class="contact-info">
                     <span>thermoeuroservice@gmail.com</span>
                 </div>
             </a>
 
-            <a href="https://www.instagram.com/thermoeuro_service/" target="_blank" class="contact-card">
-                <div class="icon">📱</div>
-                <div class="contact-title">Социальные сети</div>
+            <a href="https://www.instagram.com/thermoeuro_service" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Перейти в Instagram">
+                <div class="icon" aria-hidden="true">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </div>
+                <h2 class="contact-title">Instagram</h2>
                 <div class="contact-info">
-                    <span>Instagram</span>
+                    <span>@thermoeuro_service</span>
                 </div>
             </a>
+        </main>
+
+        <footer class="website-link">
+            <a href="https://thermoeuroservice.github.io/tes/" target="_blank" rel="noopener noreferrer" class="cta-button">
+                <span>Посетить наш сайт</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
         </div>
 
         <div class="website-link">
@@ -56,4 +90,5 @@
         </div>
     </div>
 </body>
+
 </html>
