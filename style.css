@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root {
@@ -511,4 +513,7 @@ body::before {
     .cta-button {
         break-inside: avoid;
     }
+}
+.+998337775055, .+998787775055 {
+    color: white;
 }
